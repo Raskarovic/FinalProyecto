@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    android:weightSum="1"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cambiador"
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:scrollbars="vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/txtProducto"
+        android:layout_weight="0.67" />
+
+    <Button
+        android:id="@+id/botoncomprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Comprar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:background="@color/colorAccent"
+        android:id="@+id/bontoncancela"
+        android:layout_gravity="right" />
+
+
+    </LinearLayout>
+
+
+
